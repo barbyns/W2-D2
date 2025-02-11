@@ -100,11 +100,12 @@ if
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-
+let neo = 43
+if (nn % 2 == 0)
 /* ESERCIZIO 10
   Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio corretto in ogni circostanza.
   let val = 7
-  if (val < 10) {
+ if ((val < 10) & (val > 5)) {
       console.log("Meno di 10");
     } else if (val < 5) {
       console.log("Meno di 5");
@@ -115,47 +116,65 @@ if
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-let val = 7;
-if ((val < 10) && ( val > 5)) {
-  console.log("Meno di 10");
-} else if (val < 5) {
-  console.log("Meno di 5");
-} else {
-  console.log("Uguale a 10 o maggiore");
-}
-
 /* ESERCIZIO 11
   Fornito il seguente oggetto, scrivi del codice per aggiungere una proprietà "city", il cui valore sarà "Toronto".
 */
-
-const me = {
+let val = 7
+ if ((val < 10) & (val > 5)) {
+      console.log("Meno di 10");
+    } else if (val < 5) {
+      console.log("Meno di 5");
+    } else {
+      console.log("Uguale a 10 o maggiore");
+    }
+/* SCRIVI QUI LA TUA RISPOSTA */
+const me ={
   name: 'John',
   lastName: 'Doe',
   skills: ['javascript', 'html', 'css'],
 }
-
-/* SCRIVI QUI LA TUA RISPOSTA */
-
+me.city = "Toronto"
 /* ESERCIZIO 12
   Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere la proprietà "lastName".
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+const me ={
+  name: 'John',
+  lastName: 'Doe',
+  skills: ['javascript', 'html', 'css'],
+}
+me.city = "Toronto"
+console.log("city aggiunte")
+delete me.lastName
+// o
+me.last = undefined;
+me.last = null;
+console.log("Eliminato")
 
 /* ESERCIZIO 13
   Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere l'ultimo elemento della proprietà "skills".
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+me.skills.pop()
+me.skills.splice(2,1)
 
 /* ESERCIZIO 14
   Scrivi del codice per creare un array inizialmente vuoto. Riempilo successivamente con i numeri da 1 a 10.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-
+const array = [
+  array.push (,1,2,3,5,6,7)
+  array.splice (0,0,1,2,3,4,5,6,7,8,9)
+]
+console.log(array)
 /* ESERCIZIO 15
   Scrivi del codice per sostituire l'ultimo elemento dell'array, ovvero il valore 10, con il valore 100.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+array.pop();
+array.push(100);
+array[9]
