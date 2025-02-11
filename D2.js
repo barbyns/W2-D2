@@ -83,12 +83,8 @@ if (totalShoppingCart >=50 && shipping === "Free" || totalShoppingCart <=50 === 
   Utilizzando un blocco condizionale, crea un algoritmo per ordinarle secondo il loro valore, dal più alto al più basso.
   Alla fine mostra il risultato in console.
 */
-const Numb [
- ver= 2,
- ver2= 3,
- ver3= 4,
-]
 
+ 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 /* ESERCIZIO 8
@@ -96,6 +92,8 @@ const Numb [
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+const cic2 = "Text";
+if 
 
 /* ESERCIZIO 9
   Crea un algoritmo per controllare se un numero fornito sia pari o dispari (suggerimento: cerca l'operatore modulo su un motore di ricerca)
@@ -116,6 +114,15 @@ const Numb [
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+
+let val = 7;
+if ((val < 10) && ( val > 5)) {
+  console.log("Meno di 10");
+} else if (val < 5) {
+  console.log("Meno di 5");
+} else {
+  console.log("Uguale a 10 o maggiore");
+}
 
 /* ESERCIZIO 11
   Fornito il seguente oggetto, scrivi del codice per aggiungere una proprietà "city", il cui valore sarà "Toronto".
